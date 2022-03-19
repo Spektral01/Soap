@@ -80,11 +80,11 @@
             // ButtonClearList
             // 
             this.ButtonClearList.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonClearList.Location = new System.Drawing.Point(1161, 595);
+            this.ButtonClearList.Location = new System.Drawing.Point(1150, 595);
             this.ButtonClearList.Name = "ButtonClearList";
-            this.ButtonClearList.Size = new System.Drawing.Size(115, 30);
+            this.ButtonClearList.Size = new System.Drawing.Size(137, 30);
             this.ButtonClearList.TabIndex = 9;
-            this.ButtonClearList.Text = "Очистить лист";
+            this.ButtonClearList.Text = "Очистить список";
             this.ButtonClearList.UseVisualStyleBackColor = true;
             this.ButtonClearList.Visible = false;
             this.ButtonClearList.Click += new System.EventHandler(this.ButtonClearList_Click);
@@ -92,11 +92,11 @@
             // ButtonStart
             // 
             this.ButtonStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonStart.Location = new System.Drawing.Point(1179, 559);
+            this.ButtonStart.Location = new System.Drawing.Point(1150, 559);
             this.ButtonStart.Name = "ButtonStart";
-            this.ButtonStart.Size = new System.Drawing.Size(76, 30);
+            this.ButtonStart.Size = new System.Drawing.Size(137, 30);
             this.ButtonStart.TabIndex = 11;
-            this.ButtonStart.Text = "Пуск";
+            this.ButtonStart.Text = "Начать поиск";
             this.ButtonStart.UseVisualStyleBackColor = true;
             this.ButtonStart.Visible = false;
             this.ButtonStart.Click += new System.EventHandler(this.ButtonStart_Click);
