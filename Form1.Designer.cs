@@ -36,8 +36,8 @@
             this.GroupBoxFilterCity5 = new System.Windows.Forms.GroupBox();
             this.ComboBoxCity = new System.Windows.Forms.ComboBox();
             this.GroupBoxFilterProg6 = new System.Windows.Forms.GroupBox();
-            this.RadioButtonBudget6 = new System.Windows.Forms.RadioButton();
             this.RadioButtonPay7 = new System.Windows.Forms.RadioButton();
+            this.RadioButtonBudget6 = new System.Windows.Forms.RadioButton();
             this.RadioButtonOchno3 = new System.Windows.Forms.RadioButton();
             this.RadioButtonZaochno4 = new System.Windows.Forms.RadioButton();
             this.RadioButtonDist5 = new System.Windows.Forms.RadioButton();
@@ -172,17 +172,6 @@
             this.GroupBoxFilterProg6.TabStop = false;
             this.GroupBoxFilterProg6.Text = "Оплата";
             // 
-            // RadioButtonBudget6
-            // 
-            this.RadioButtonBudget6.AutoSize = true;
-            this.RadioButtonBudget6.Location = new System.Drawing.Point(11, 19);
-            this.RadioButtonBudget6.Name = "RadioButtonBudget6";
-            this.RadioButtonBudget6.Size = new System.Drawing.Size(80, 21);
-            this.RadioButtonBudget6.TabIndex = 26;
-            this.RadioButtonBudget6.TabStop = true;
-            this.RadioButtonBudget6.Text = "Бюджет";
-            this.RadioButtonBudget6.UseVisualStyleBackColor = true;
-            // 
             // RadioButtonPay7
             // 
             this.RadioButtonPay7.AutoSize = true;
@@ -193,6 +182,17 @@
             this.RadioButtonPay7.TabStop = true;
             this.RadioButtonPay7.Text = "Платно";
             this.RadioButtonPay7.UseVisualStyleBackColor = true;
+            // 
+            // RadioButtonBudget6
+            // 
+            this.RadioButtonBudget6.AutoSize = true;
+            this.RadioButtonBudget6.Location = new System.Drawing.Point(11, 19);
+            this.RadioButtonBudget6.Name = "RadioButtonBudget6";
+            this.RadioButtonBudget6.Size = new System.Drawing.Size(80, 21);
+            this.RadioButtonBudget6.TabIndex = 26;
+            this.RadioButtonBudget6.TabStop = true;
+            this.RadioButtonBudget6.Text = "Бюджет";
+            this.RadioButtonBudget6.UseVisualStyleBackColor = true;
             // 
             // RadioButtonOchno3
             // 
@@ -323,7 +323,7 @@
             this.Controls.Add(this.ButtonClearList);
             this.Controls.Add(this.ListBoxPars);
             this.Name = "Form1";
-            this.Text = "Помощник в выборе вуза и специальности";
+            this.Text = "Поиск вуза";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.GroupBoxFilterEge4.ResumeLayout(false);
             this.GroupBoxFilterCity5.ResumeLayout(false);

@@ -36,7 +36,7 @@ namespace Parser
         //Извещение о завершении работы
         private void Parser_OnCompleted(object obj)
         {
-            LabelProgress.Text = "Прогресс: Парсинг завершен";
+            LabelProgress.Text = "Поиск завершен";
         }
         //Поиск по вузам и направлениям. В данном блоке подключаются фильтры и запускается парсинг страницы
         private void ButtonStart_Click(object sender, EventArgs e)
@@ -85,7 +85,7 @@ namespace Parser
         //При первом переключении открывается возможность выбирать фильтры и в случае, если меняется со "специализации" старые фильтры обнуляются
         private void RadioButtonVUZ1_CheckedChanged(object sender, EventArgs e)
         {
-            LabelProgress.Text = "Прогресс: Парсинг не начат";
+            LabelProgress.Text = "Поиск не начат";
             GroupBoxFilterVUZ2.Visible = true;
             GroupBoxFilterProg3.Visible = true;
             GroupBoxFilterEge4.Visible = true;
@@ -151,7 +151,7 @@ namespace Parser
         private void ButtonStop_Click(object sender, EventArgs e)
         {
             parser.Abort();
-            LabelProgress.Text = "Прогресс: Парсер остановлен";
+            LabelProgress.Text = "Поиск остановлен";
         }
 
         //Позволяет осуществить переход на страницу, где возможен осмотр специализаций конкретного вуза.
